@@ -1,0 +1,32 @@
+gitignore
+# Entorno virtual
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos brutos
+data/olist_dataset/
+
+# Variables de entorno
+.env
+
+# Logs y temporales
+*.log
+*.sqlite
+
+# Docker
+**/logs/
+**/airflow.db
+
+# OS
+.DS_Store
+
+# VSCode
+.vscode/
